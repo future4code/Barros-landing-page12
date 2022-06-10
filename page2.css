@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#cadastro{
+    background-color: beige;
+    color: brown;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+#botao{
+    position: relative;
+}
