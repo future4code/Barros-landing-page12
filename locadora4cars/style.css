@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.icone-e-texto{
+    display: grid;
+    grid-template-columns: 90% 10%;
+    grid-template-rows: 2fr;
+}
+.icone {
+  height: 150px;
+  width: 150px;
+}
+#botao{
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+#menu-home {
+  display: grid;
+  justify-items: flex-end;
+  margin-right: 20px;
+
+}
+.sub {
+  text-decoration: none;
+}
+
+#apresentacao {
+  text-align: center;
+  margin: 80px;
+}
