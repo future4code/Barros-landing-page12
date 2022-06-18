@@ -14,25 +14,23 @@ header{
     
 }
 
-
-
 .icone:hover{
     transition: .3s ease-in;
 }
 
-ul li {
+nav li {
     display: inline-block;
     margin-right: 30px;
     list-style: none;
 }
 
-ul li a{
+nav li a{
     text-decoration: none;
     color: aliceblue;
     font-size: 20px;
 }
 
-ul li a:hover {
+nav li a:hover {
     color: brown;
     transition: .3s ease-in;
 
@@ -56,10 +54,6 @@ ul li a:hover {
 
 }
 
-   
-    
-
-
 #menu{
     display: flex;
     flex-direction:column;
@@ -70,10 +64,7 @@ ul li a:hover {
    height: 30px;
    justify-content: end;  
 }
-
-
-    
-    footer{
+footer{
         position: fixed;
         bottom: 0px;
         width: 100%;
@@ -90,9 +81,11 @@ ul li a:hover {
         font-size: 18px;
         font-weight: 600;
         text-transform: uppercase;
+        text-align: center;
+        margin-top: 50px;
     }
     .box .content{
-        margin: 20px 0 0 0;
+        margin: 30px 100px 30px 100px;
         position: relative;
     }
     .box .content:after{
